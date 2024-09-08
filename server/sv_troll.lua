@@ -11,11 +11,8 @@ lib.callback.register('eb_troll:isAdmin', function(source)
             break
         end
     end
-
-    if isAdmin then
-        return true
-    end
-    return false
+        
+    return isAdmin
 end)
 
 lib.callback.register('eb_troll:crashPlayer', function(source, target)
