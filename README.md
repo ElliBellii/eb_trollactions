@@ -15,7 +15,7 @@ Start the script and you're good to go. (Make sure to install all requirements)
 * Launch: Launch a player into the air with /launchplayer [ID]
 * Explode: Explode a player with /explodeplayer [ID]
 * Optimized: 0.00ms idle and when used
-* Secure: Uses lib callbacks instead of server events (protected from modders)
+* Secure: Uses overextended callbacks instead of server events (protected from modders)
 * Logs: All actions are logged to a Discord webhook (if enabled)
 
 **Requirements**
